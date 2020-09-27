@@ -1,0 +1,31 @@
+<div class="container loginbody-margin">
+  <div class="row">
+    <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+      <div class="card card-signin my-5 body-background">
+        <div class="card-body">
+          <h5 class="card-title text-center">Sign In</h5>
+          <div class="card-error">
+            <p *ngFor="let alert of alerts; let i = index">
+              <ngb-alert [type]="alert.type" (close)="close(alert)" [dismissible]='true' *ngIf="!isAuthentication && submitted && emptyCheck && i === 0">{{ alert.message }}</ngb-alert>
+              <ngb-alert [type]="alert.type" (close)="close(alert)" [dismissible]='true' *ngIf="!emptyCheck && submitted && i === 1">{{ i }} - {{ alert.message }}</ngb-alert>
+            </p>
+            
+          </div>
+          <form class="form-signin" #f="ngForm" (ngSubmit)="Onsubmit(f)">  
+            <div class="form-group">
+              <label for="forUserName">User name</label>
+              <input type="text" class="form-control" id="forUserName" name="userName" [(ngModel)]="userName" aria-describedby="emailHelp" #userNameInput="ngModel" autofocus required>
+              <!-- <span class="alert-danger" *ngIf="userNameInput.hasError('required')">Enter Username</span> -->
+              <span class="alert-danger" *ngIf="userNameInput.touched && userNameInput.hasError('required')">Enter Username</span>
+            </div>
+            <div class="form-group">
+              <label for="forUserPassword">Password</label>
+              <input type="password" class="form-control" id="forUserPassword" name="userPass" [(ngModel)]="userPass" #userPassInput="ngModel" autofocus required>
+              <span class="alert-danger" *ngIf="userPassInput.touched && userPassInput.hasError('required')">Enter Password</span>
+            </div>
+            <button type="submit" class="btn btn-primary" name="userLogin">Login</button>
+          </form>
+          
+    </div>
+  </div>
+</div>

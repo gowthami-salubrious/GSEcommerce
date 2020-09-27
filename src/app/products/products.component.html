@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col-md-3 mt-2">
+    <div class="category-title py-2">
+      Categories
+    </div>
+   <ul class="list-group category_block">
+      <li class="list-group-item"><input class="form-control" type="text"  [(ngModel)] = "filterProductName" placeholder="Search" ></li>
+      <li class="list-group-item"><a href="#">Laptops</a></li>
+      <li class="list-group-item"><a href="#">Mobiles</a></li>
+  </ul>
+  </div>
+  <div class="col-md-9 mt-2">
+    <div class="row ml-2">
+      <div class="card col-md-3 card-product mr-2" *ngFor="let productDet of productList | filter:filterProductName:'pName' ">
+        <img src="{{ productDet.pImage }}" class="card-img-top" alt="{{ productDet.pImage }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ productDet.pName }}</h5>
+          <p class="card-text">{{ productDet.pDescription | truncate:100 }} </p>
+          <button class="btn btn-lg btn-outline-primary" (click)="open(productDet.pName,productDet.pDescription,productDet.pPrice)">Click here</button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+

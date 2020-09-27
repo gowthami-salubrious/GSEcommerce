@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "pName": "Realme pro 1",
+        "pDescription": "The Realme 1 Pro is the flagship model for the 7 series. The smartphone offers a striking HD+ display with a premium design. To add on to its spec-sheet, the device offers an impressive camera set-up, massive battery potential, and the latest operating system. Such specifications and marginal price-tag have made it one of the best upcoming smartphones.",
+        "pImage": "assets/images/mobile/prodimage1.jpg", 
+        "pPrice": 12000 
+
+    },
+    {
+        "id": 2,
+        "pName": "Realme pro 7",
+        "pDescription": "The Realme 7 Pro is the flagship model for the 7 series. The smartphone offers a striking HD+ display with a premium design. To add on to its spec-sheet, the device offers an impressive camera set-up, massive battery potential, and the latest operating system. Such specifications and marginal price-tag have made it one of the best upcoming smartphones.",
+        "pImage": "assets/images/mobile/prodimage2.jpg", 
+        "pPrice": 14000
+    },
+    {
+        "id": 3,
+        "pName": "Xiomi Note 3",
+        "pDescription": "The Note 3 is the flagship model for the 7 series. The smartphone offers a striking HD+ display with a premium design. To add on to its spec-sheet, the device offers an impressive camera set-up, massive battery potential, and the latest operating system. Such specifications and marginal price-tag have made it one of the best upcoming smartphones.",
+        "pImage": "assets/images/mobile/prodimage3.jpg", 
+        "pPrice": 13500
+    },
+    {
+        "id": 4,
+        "pName": "One Plus 1",
+        "pDescription": "One plus flagship model for the 7 series. The smartphone offers a striking HD+ display with a premium design. To add on to its spec-sheet, the device offers an impressive camera set-up, massive battery potential, and the latest operating system. Such specifications and marginal price-tag have made it one of the best upcoming smartphones.",
+        "pImage": "assets/images/mobile/prodimage4.jpg", 
+        "pPrice": 40000
+    },
+    {
+        "id": 5,
+        "pName": "One Plus 1 no2",
+        "pDescription": "One plus no2 flagship model for the 7 series. The smartphone offers a striking HD+ display with a premium design. To add on to its spec-sheet, the device offers an impressive camera set-up, massive battery potential, and the latest operating system. Such specifications and marginal price-tag have made it one of the best upcoming smartphones.",
+        "pImage": "assets/images/mobile/prodimage5.jpg", 
+        "pPrice": 40500
+    },
+    {
+        "id": 6,
+        "pName": "One Plus 1 no3",
+        "pDescription": "One plus no3 flagship model for the 7 series. The smartphone offers a striking HD+ display with a premium design. To add on to its spec-sheet, the device offers an impressive camera set-up, massive battery potential, and the latest operating system. Such specifications and marginal price-tag have made it one of the best upcoming smartphones.",
+        "pImage": "assets/images/mobile/prodimage6.jpg", 
+        "pPrice": 40200
+    }
+]

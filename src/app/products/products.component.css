@@ -1,0 +1,12 @@
+.category-title {
+    margin-top: 1rem;
+    background-color: #659EDF;
+    font-size: 200;
+}
+.card-product {
+    margin-top: 1rem;
+    padding: 3px;
+}
+.clearfix {
+    margin-top: 10px;
+}
